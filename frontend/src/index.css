@@ -1,0 +1,38 @@
+/* ─── Global Reset & Base ────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow: hidden;
+}
+
+#root {
+  /* Let App.jsx control all layout — no width caps or centering here */
+  display: flex;
+  flex-direction: column;
+}
+
+/* ─── Scrollbar (global fallback) ───────────────────────────── */
+::-webkit-scrollbar        { width: 6px; height: 6px; }
+::-webkit-scrollbar-track  { background: transparent; }
+::-webkit-scrollbar-thumb  { background: #b7e4c7; border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: #52b788; }
+
+/* ─── Base Elements ──────────────────────────────────────────── */
+img    { display: block; max-width: 100%; }
+button { font-family: inherit; }
+input  { font-family: inherit; }
+p      { margin: 0; }

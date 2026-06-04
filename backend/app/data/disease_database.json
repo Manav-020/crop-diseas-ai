@@ -1,0 +1,45 @@
+{
+  "Tomato___Early_blight": {
+    "solution": "Remove infected leaves and apply fungicides such as chlorothalonil or copper-based sprays. Rotate crops every season.",
+    "reason": "Early blight is caused by the fungus Alternaria solani which thrives in warm humid environments and spreads through infected soil and plant debris."
+  },
+
+  "Tomato___Late_blight": {
+    "solution": "Apply copper-based fungicides immediately and remove infected plants. Ensure proper air circulation and avoid overhead watering.",
+    "reason": "Late blight is caused by the pathogen Phytophthora infestans which spreads rapidly in cool and moist conditions."
+  },
+
+  "Tomato___healthy": {
+    "solution": "No treatment required. Maintain good irrigation practices and balanced fertilization.",
+    "reason": "The plant shows no visible symptoms of disease."
+  },
+
+  "Potato___Early_blight": {
+    "solution": "Apply fungicides and remove infected leaves. Practice crop rotation and maintain proper spacing between plants.",
+    "reason": "Early blight in potatoes is caused by Alternaria solani fungus which spreads in warm and humid conditions."
+  },
+
+  "Potato___Late_blight": {
+    "solution": "Use resistant potato varieties and apply copper-based fungicides regularly.",
+    "reason": "Late blight is caused by the pathogen Phytophthora infestans and spreads rapidly in wet weather."
+  },
+
+  "Apple___Apple_scab": {
+    "solution": "Apply fungicides during the growing season and remove infected leaves from the ground.",
+    "reason": "Apple scab is caused by the fungus Venturia inaequalis which spreads through rain splash and wind."
+  },
+
+  "Apple___Black_rot": {
+    "solution": "Prune infected branches and apply fungicide sprays during the growing season.",
+    "reason": "Black rot is caused by the fungus Botryosphaeria obtusa which spreads through wounds in the tree."
+  },
+
+  "Corn___Common_rust": {
+    "solution": "Plant resistant corn varieties and apply fungicides if the infection is severe.",
+    "reason": "Corn rust is caused by the fungus Puccinia sorghi which spreads through airborne spores."
+  },
+  "Tomato___Target_Spot": {
+  "solution": "Remove infected leaves, improve air circulation, avoid overhead watering, and apply appropriate fungicides such as chlorothalonil or copper-based sprays.",
+  "reason": "Target Spot is caused by the fungus Corynespora cassiicola. It develops in warm, humid conditions and spreads through infected plant debris and water splash."
+  }
+}
