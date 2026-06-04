@@ -1,0 +1,82 @@
+# ===============================
+# Python
+# ===============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.crop/
+venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# ===============================
+# FastAPI / Backend
+# ===============================
+
+backend/__pycache__/
+backend/**/*.pyc
+
+# Model checkpoints (optional)
+*.h5
+*.keras
+*.ckpt
+*.pt
+*.pth
+
+# Upload folders
+uploads/
+temp/
+tmp/
+
+# ===============================
+# Node / React / Vite
+# ===============================
+
+frontend/node_modules/
+
+frontend/dist/
+frontend/build/
+
+frontend/.vite/
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===============================
+# VS Code
+# ===============================
+
+.vscode/
+
+# ===============================
+# Testing
+# ===============================
+
+.coverage
+.pytest_cache/
+
+# ===============================
+# Misc
+# ===============================
+
+*.sqlite3
+*.db
