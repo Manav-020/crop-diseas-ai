@@ -80,7 +80,10 @@ yarn-error.log*
 
 *.sqlite3
 *.db
+<<<<<<< HEAD
 
 
 __pycache__/
 *.py[cod]
+=======
+>>>>>>> fdbd0271307da159350d7f6d5c470858fe5a1ea8
